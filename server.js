@@ -5,15 +5,7 @@ const router = express.Router();
 const db = mongoose.connection;
 const Portfolio = require("./apiModel");
 
-const options = {
-  method: "GET",
-  url: "https://latest-stock-price.p.rapidapi.com/price",
-  params: { Indices: "NIFTY 50" },
-  headers: {
-    "X-RapidAPI-Key": "1e7e7fdb3cmsh6160f981120e031p1df576jsn9a19dbf5dd32",
-    "X-RapidAPI-Host": "latest-stock-price.p.rapidapi.com",
-  },
-};
+
 mongoose.connect(
   "mongodb://localhost:27017/apidata",
   { useNewUrlParser: true },
