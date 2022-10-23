@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose')
 const router = express.Router()
 const db = mongoose.connection
-const Portfolio = require('./models/ApiModel')
+const Portfolio = require('./ApiModel')
 
 const options = {
   method: "GET",
