@@ -9,8 +9,7 @@ const options = {
   url: "https://latest-stock-price.p.rapidapi.com/price",
   params: { Indices: "NIFTY 50" },
   headers: {
-    "X-RapidAPI-Key": "1e7e7fdb3cmsh6160f981120e031p1df576jsn9a19dbf5dd32",
-    "X-RapidAPI-Host": "latest-stock-price.p.rapidapi.com",
+    
   },
 };
 
