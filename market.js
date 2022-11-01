@@ -15,10 +15,7 @@ let response = null;
 new Promise(async (resolve, reject) => {
     try {
         response = await Axios.get(
-        "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
-        {
-            headers: {
-            "X-CMC_PRO_API_KEY": "3cf444b3-fb0c-4bce-891d-9077fc07d533",
+        
             },
         }
         );
